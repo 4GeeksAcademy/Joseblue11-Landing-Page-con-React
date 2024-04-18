@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    min-width: 100%;
+    max-width: 1024px
+}
+
+.collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.navbar-nav .nav-link {
+  /* Default button styles */
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+.navbar-nav .nav-link:hover {
+  /* Hover state styles */
+  box-shadow: 0 0 10px #acd4ff; /* Add glow on hover */
+}
+
